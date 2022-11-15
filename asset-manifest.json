@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/react-weather/static/css/main.11659b0f.css",
-    "main.js": "/react-weather/static/js/main.692125f8.js",
+    "main.css": "/react-weather/static/css/main.944adf7c.css",
+    "main.js": "/react-weather/static/js/main.dfa71e37.js",
     "static/media/cloud.png": "/react-weather/static/media/cloud.4515d68e25bd8362f3c0.png",
+    "static/media/snow.png": "/react-weather/static/media/snow.d27dc6e8438bd162dfeb.png",
     "static/media/rainfall.svg": "/react-weather/static/media/rainfall.6c31dc8d6fd8c5e04bb93a4e9ed5adf7.svg",
     "static/media/icon-temp.svg": "/react-weather/static/media/icon-temp.18b10b0030133461c0c5aee661606fcc.svg",
     "static/media/small-rain-and-sun-icon.svg": "/react-weather/static/media/small-rain-and-sun-icon.778ed4c7dc83de99e84c4a11ccc46b33.svg",
@@ -13,11 +14,11 @@
     "static/media/mainly-cloudy-icon.svg": "/react-weather/static/media/mainly-cloudy-icon.6f2caa1f9f48b023c5aaaa2b7d062d13.svg",
     "static/media/humidity.svg": "/react-weather/static/media/humidity.68d4c1a0f1c0f8e80e41df772f285c2d.svg",
     "index.html": "/react-weather/index.html",
-    "main.11659b0f.css.map": "/react-weather/static/css/main.11659b0f.css.map",
-    "main.692125f8.js.map": "/react-weather/static/js/main.692125f8.js.map"
+    "main.944adf7c.css.map": "/react-weather/static/css/main.944adf7c.css.map",
+    "main.dfa71e37.js.map": "/react-weather/static/js/main.dfa71e37.js.map"
   },
   "entrypoints": [
-    "static/css/main.11659b0f.css",
-    "static/js/main.692125f8.js"
+    "static/css/main.944adf7c.css",
+    "static/js/main.dfa71e37.js"
   ]
 }
