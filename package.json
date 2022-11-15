@@ -1,8 +1,8 @@
 {
-  "homepage": "https://alexan0.github.io/react-weather/",
   "name": "react-weather",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alexan0.github.io/react-weather/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
     "@testing-library/jest-dom": "^5.16.5",
