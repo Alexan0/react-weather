@@ -365,6 +365,11 @@ body {
 			font-size: 60px;
 			line-height: 60px;
 		}
+
+		@media (max-width: 350px) {
+			font-size: 55px;
+			line-height: 55px;
+		}
 	}
 
 	&__day {
