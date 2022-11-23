@@ -1,24 +1,18 @@
 {
   "files": {
-    "main.css": "/react-weather/static/css/main.944adf7c.css",
-    "main.js": "/react-weather/static/js/main.dfa71e37.js",
+    "main.css": "/react-weather/static/css/main.eebe4939.css",
+    "main.js": "/react-weather/static/js/main.3a5fbf7d.js",
     "static/media/cloud.png": "/react-weather/static/media/cloud.4515d68e25bd8362f3c0.png",
-    "static/media/snow.png": "/react-weather/static/media/snow.d27dc6e8438bd162dfeb.png",
     "static/media/rainfall.svg": "/react-weather/static/media/rainfall.6c31dc8d6fd8c5e04bb93a4e9ed5adf7.svg",
     "static/media/icon-temp.svg": "/react-weather/static/media/icon-temp.18b10b0030133461c0c5aee661606fcc.svg",
-    "static/media/small-rain-and-sun-icon.svg": "/react-weather/static/media/small-rain-and-sun-icon.778ed4c7dc83de99e84c4a11ccc46b33.svg",
-    "static/media/rain-icon.svg": "/react-weather/static/media/rain-icon.6036f34826ec1b0c45951f037709b9d0.svg",
-    "static/media/sun-icon.svg": "/react-weather/static/media/sun-icon.9d8074175b47ee8b5343c30bb18910ed.svg",
-    "static/media/small-rain-icon.svg": "/react-weather/static/media/small-rain-icon.8c304cb6dcfadf5845b1051b6048b90b.svg",
     "static/media/wind.svg": "/react-weather/static/media/wind.c378966a4a388ab301a12d88dfc05947.svg",
-    "static/media/mainly-cloudy-icon.svg": "/react-weather/static/media/mainly-cloudy-icon.6f2caa1f9f48b023c5aaaa2b7d062d13.svg",
     "static/media/humidity.svg": "/react-weather/static/media/humidity.68d4c1a0f1c0f8e80e41df772f285c2d.svg",
     "index.html": "/react-weather/index.html",
-    "main.944adf7c.css.map": "/react-weather/static/css/main.944adf7c.css.map",
-    "main.dfa71e37.js.map": "/react-weather/static/js/main.dfa71e37.js.map"
+    "main.eebe4939.css.map": "/react-weather/static/css/main.eebe4939.css.map",
+    "main.3a5fbf7d.js.map": "/react-weather/static/js/main.3a5fbf7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.944adf7c.css",
-    "static/js/main.dfa71e37.js"
+    "static/css/main.eebe4939.css",
+    "static/js/main.3a5fbf7d.js"
   ]
 }
