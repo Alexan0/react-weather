@@ -2,7 +2,7 @@ import React from 'react';
 
 import cloud from '../assets/img/cloud.png';
 
-const Loading = () => {
+const Loading: React.FC = () => {
 	return (
 		<div className="cloud">
 			<div className="cloud__body">

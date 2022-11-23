@@ -153,24 +153,34 @@
 		width: 100%;
 		background-color: transparent;
 		display: flex;
+		flex: 1 1 auto;
+		justify-content: center;
 		align-items: center;
 		gap: 7px;
 		cursor: pointer;
+		flex: 0 0 40px;
+		height: 40px;
+		border-radius: 50%;
+
+		&.dark {
+			background-color: $blackColor;
+
+			svg {
+				fill: $whiteColor;
+			}
+		}
+
+		&.white {
+			background-color: $whiteColor;
+
+			svg {
+				fill: $blackColor;
+			}
+		}
 
 		svg {
 			flex: 0 0 30px;
 			height: 30px;
-		}
-
-		span {
-			font-size: 18px;
-			line-height: 20px;
-			color: $text-light;
-
-			@media (max-width: 340px) {
-				font-size: 16px;
-				line-height: 18px;
-			}
 		}
 	}
 
@@ -180,6 +190,24 @@
 		justify-content: space-between;
 		gap: 7px;
 		max-width: 400px;
+
+		div {
+			width: 100%;
+			display: flex;
+			align-items: center;
+			gap: 7px;
+		}
+
+		span {
+			font-size: 18px;
+			line-height: 20px;
+			color: $text-light;
+
+			@media (max-width: 479.98px) {
+				font-size: 16px;
+				line-height: 18px;
+			}
+		}
 	}
 
 	&__search-button {

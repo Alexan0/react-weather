@@ -1,22 +1,15 @@
 import React from 'react';
 
-import { useDispatch, useSelector } from 'react-redux';
-import { animLoading } from '../redux/slices/loadingSlice';
+import { useSelector } from 'react-redux';
+import { selectStatus } from '../redux/slices/wheatherSlice';
 
-const NotFound = () => {
-    const dispatch = useDispatch();
-    const { loading } = useSelector(state => state.loading);
-
-    React.useEffect(() => {
-        setTimeout(() => {
-            dispatch(animLoading(false))
-        }, 1000)
-    }, [])
+const NotFound: React.FC = () => {
+    const status = useSelector(selectStatus);
 
     return (
         <>
             {
-                loading ? '' : <div className="not-found">
+                status === 'loading' ? '' : <div className="not-found">
                     <div className="not-found__body">
                         <div className="not-found__content">
                             <div className="not-found__text">

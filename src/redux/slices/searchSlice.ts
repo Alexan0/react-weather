@@ -1,7 +1,14 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { RootState } from '../store';
 
-const initialState = {
-	city: 'Москва',
+import { getCityFromLS } from '../../utils/getCityFromLS';
+
+interface SearchSliceState {
+	city: string;
+}
+
+const initialState: SearchSliceState = {
+	city: getCityFromLS(),
 };
 
 export const searchSlice = createSlice({
@@ -13,6 +20,8 @@ export const searchSlice = createSlice({
 		}
 	}
 });
+
+export const selectCity = (state: RootState) => state.search;
 
 export const { searchCity } = searchSlice.actions;
 export default searchSlice.reducer;
